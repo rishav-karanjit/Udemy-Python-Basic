@@ -1,7 +1,6 @@
-def PrintHello():
-    print("Hello",name1)
-    print("Hello",name2)
+def PrintHello(a):
+    print("Hello",a)
 
-name1 = "Rishav"
-name2 = "XYZ"
-PrintHello()
+a = "ABCD"
+PrintHello("Rishav")
+print(a) #ABCD
